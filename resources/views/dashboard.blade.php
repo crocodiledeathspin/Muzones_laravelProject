@@ -170,7 +170,7 @@
                         </div>
 
                         <div>
-                            <label class="mb-2 block text-sm font-medium muted-50">Course</label>
+                            <label class="mb-2 block text-sm font-medium muted-50">Department</label>
                             <select name="department_id" required class="input-soft w-full rounded-lg px-4 py-2 text-sm">
                                 <option value="">Select a department</option>
                                 @foreach($departments as $department)
