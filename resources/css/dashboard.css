@@ -1,0 +1,77 @@
+:root {
+    --pastel-1: linear-gradient(90deg, rgba(168,237,234,0.95), rgba(254,214,227,0.95));
+    --soft-shadow: 0 8px 24px rgba(15,23,42,0.06);
+    --muted: #6b7280;
+    --accent-text: #0f172a;
+}
+
+/* cards and panels */
+.page-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: var(--soft-shadow);
+    border: 1px solid rgba(15,23,42,0.04);
+}
+
+.pastel-stripe {
+    height: 6px;
+    border-radius: 6px;
+    background: var(--pastel-1);
+    margin-bottom: 14px;
+    width: 96px;
+}
+
+.input-soft {
+    background: #ffffff;
+    border: 1px solid rgba(15,23,42,0.06);
+    color: var(--accent-text);
+}
+
+.btn-primary {
+    background-image: var(--pastel-1);
+    color: #07203a;
+    border: none;
+    box-shadow: 0 6px 18px rgba(168,237,234,0.12);
+}
+
+.btn-ghost {
+    background: transparent;
+    border: 1px solid rgba(15,23,42,0.06);
+    color: var(--muted);
+}
+
+.stat-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.9), #ffffff);
+    border-radius: 12px;
+    padding: 18px;
+    border: 1px solid rgba(15,23,42,0.04);
+}
+
+.dept-table th {
+    background: transparent;
+    color: var(--muted);
+    font-weight: 600;
+}
+
+.dept-table td {
+    color: var(--accent-text);
+}
+
+.action-link {
+    color: #0f172a;
+    opacity: 0.85;
+}
+
+.modal-wrap {
+    background: rgba(255,255,255,0.98);
+}
+
+input:focus, textarea:focus, button:focus, select:focus {
+    outline: 2px solid rgba(168,237,234,0.35);
+    outline-offset: 2px;
+}
+
+/* layout tweaks */
+.muted-50 { 
+    color: #6b7280; 
+}
